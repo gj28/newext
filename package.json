@@ -2,12 +2,12 @@
   "name": "anti-ai-ex",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev -p 8000",
+  "build": "next build",
+  "start": "next start -p 8000",
+  "lint": "next lint"
+},
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-popover": "^1.1.1",
